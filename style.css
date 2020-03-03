@@ -1,0 +1,87 @@
+body  {
+  background-color: darkslategray;
+  color: black;
+  font-family: Courier, monospace;
+  font-weight: 100;
+  font-size: 15px
+}
+
+h1 {
+	color: darkslategray;
+	font-family: Arial, serif;
+	font-weight: 800;
+	font-size: 40px
+
+}
+
+h2 {
+	color: sienna;
+	font-weight: 200;
+	font-size: 25px
+}
+
+/* Custom Design with Class*/
+
+.container {
+	width: 600px;
+	margin: 30px auto;
+ }
+
+.box-design {
+	background-color: lightsteelblue;
+	padding: 35px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.8);
+	border-radius: 10px;
+	margin: 20px 0px;
+	text-align: center;
+}
+
+.img-circle {
+	border-radius: 20%;
+}
+
+.btn-white {
+	background-color: darkslategray;
+	color: white;
+	padding: 8px 18px;
+	border-radius: 10px; 
+}
+
+.btn-white:hover {
+   background-color: white;
+   color: darkslategray;
+}
+
+.list-horizontal {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-horizontal li {
+	display: inline-block;
+	padding: 15px; 
+}
+
+.list-horizontal i {
+	font-size: 35px; 
+	color: darkslategray; 
+}
+
+.list-horizontal i:hover {
+	font-size: 45px; 
+	color: white; 
+}
+
+#intro  p {
+	margin: 40px;
+}
+
+
+
+
+
+
+
+
+
+
